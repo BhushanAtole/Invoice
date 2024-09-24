@@ -73,7 +73,7 @@ const Invoice1 = () => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto p-4 bg-white shadow-lg rounded-lg">
+    <div className="max-w-4xl mx-auto p-2 bg-white shadow-lg rounded-lg">
       {/* Print Button */}
       <div className="flex justify-end mb-4">
         <button
@@ -308,7 +308,7 @@ const Invoice1 = () => {
         </div>
 
         {/* Signatory Section */}
-        <div className="mt-8 flex justify-end">
+        <div className="mt-5 flex justify-end">
           <div className="text-center">
             <div className="w-32 h-1 border-b border-black mb-2"></div>
             <p className="text-sm">Authorized Signatory</p>
