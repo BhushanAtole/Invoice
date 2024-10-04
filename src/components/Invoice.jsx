@@ -111,10 +111,24 @@ const Invoice1 = () => {
         </div>
 
         {/* Bank Info Section */}
-        <div className="flex flex-col sm:flex-row justify-between text-lg mb-3 p-2 font-bold font-mono border border-gray-700 rounded-lg">
+        <div className="flex flex-col sm:flex-row justify-between text-lg mb-1 p-2 font-bold font-mono border border-gray-700 rounded-lg">
           <h3 className="mb-1 sm:mb-0">BANK AC NO : 50100506534011</h3>
           <h3>IFSC CODE : HDFC0002089</h3>
         </div>
+
+        {/* Customer Name  */}
+        <div className="flex flex-col sm:flex-row items-start sm:items-center text-lg mb-3 p-1 bg-white border border-gray-700 rounded-lg space-y-2 sm:space-y-0 sm:space-x-4">
+          <label htmlFor="customerName" className="w-full sm:w-1/5 font-semibold ml-4">Customer Name</label>
+
+          {/* <label htmlFor="customerName" className="w-full sm:w-1/5">Customer Name</label> */}
+          <input
+            type="text"
+            id="customerName"
+            placeholder="Enter customer name"
+            className="w-full sm:w-3/4 px-2 py-1 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-400 focus:border-transparent transition duration-300 ease-in-out"
+          />
+        </div>
+
 
         {/* Table Container with Horizontal Scroll on Small Screens */}
         <div className="overflow-x-auto">
