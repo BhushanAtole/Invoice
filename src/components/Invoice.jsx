@@ -285,7 +285,7 @@ const Invoice1 = () => {
         </div>
 
         {/* Optional Total Table (Visible on Medium and Larger Screens) */}
-        <div className="flex justify-start mt-4 md:block">
+        <div className="flex justify-start mt-2 md:block">
           {/* <table className="text-sm">
             <tbody>
               <tr>
@@ -322,7 +322,7 @@ const Invoice1 = () => {
         </div>
 
         {/* Signatory Section */}
-        <div className="mt-5 flex justify-end">
+        <div className="mt-3 flex justify-end">
           <div className="text-center">
             <div className="w-32 h-1 border-b border-black "></div>
             <p className="text-sm">Authorized Signatory</p>
