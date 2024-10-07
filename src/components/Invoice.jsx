@@ -322,7 +322,7 @@ const Invoice1 = () => {
         </div>
 
         {/* Signatory Section */}
-        <div className="mt-3 flex justify-end">
+        <div className="mt-0 flex justify-end">
           <div className="text-center">
             <div className="w-32 h-1 border-b border-black "></div>
             <p className="text-sm">Authorized Signatory</p>
