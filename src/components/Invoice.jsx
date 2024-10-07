@@ -87,7 +87,7 @@ const Invoice1 = () => {
       {/* Invoice Container */}
       <div className="border-2 border-gray-300 p-2 rounded-lg">
         {/* Header Section */}
-        <div className="flex flex-col sm:flex-row items-center justify-center mb-1">
+        <div className="flex flex-col sm:flex-row items-center justify-center">
           <img
             src={Truck}
             alt="Truck icon"
@@ -324,7 +324,7 @@ const Invoice1 = () => {
         {/* Signatory Section */}
         <div className="mt-5 flex justify-end">
           <div className="text-center">
-            <div className="w-32 h-1 border-b border-black mb-2"></div>
+            <div className="w-32 h-1 border-b border-black "></div>
             <p className="text-sm">Authorized Signatory</p>
           </div>
         </div>
