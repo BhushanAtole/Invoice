@@ -75,7 +75,7 @@ const Invoice1 = () => {
   return (
     <div className="max-w-4xl mx-auto p-2 bg-white shadow-lg rounded-lg">
       {/* Print Button */}
-      <div className="flex justify-end mb-4">
+      <div className="flex justify-end ">
         <button
           onClick={print}
           className="print-button px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition"
