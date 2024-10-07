@@ -87,7 +87,7 @@ const Invoice1 = () => {
       {/* Invoice Container */}
       <div className="border-2 border-gray-300 p-2 rounded-lg">
         {/* Header Section */}
-        <div className="flex flex-col sm:flex-row items-center justify-center mb-2">
+        <div className="flex flex-col sm:flex-row items-center justify-center mb-1">
           <img
             src={Truck}
             alt="Truck icon"
@@ -100,7 +100,7 @@ const Invoice1 = () => {
             <p className="text-sm mb-1 font-semibold">
               A/P Wasunde Tal-Daund Dist-Pune Pin-412219
             </p>
-            <p className="text-sm mb-2 font-semibold">
+            <p className="text-sm mb-1 font-semibold">
               Plaster Sand, Crush Sand 20mm, 10mm, 6mm, 40/60
             </p>
             <div className="flex space-x-3">
@@ -117,7 +117,7 @@ const Invoice1 = () => {
         </div>
 
         {/* Customer Name  */}
-        <div className="flex flex-col sm:flex-row items-start sm:items-center text-lg mb-3 p-1 bg-white border border-gray-700 rounded-lg space-y-2 sm:space-y-0 sm:space-x-4">
+        <div className="flex flex-col sm:flex-row items-start sm:items-center text-lg mb-2 p-1 bg-white border border-gray-700 rounded-lg space-y-2 sm:space-y-0 sm:space-x-4">
           <label htmlFor="customerName" className="w-full sm:w-1/5 font-semibold ml-4">Customer Name</label>
 
           {/* <label htmlFor="customerName" className="w-full sm:w-1/5">Customer Name</label> */}
