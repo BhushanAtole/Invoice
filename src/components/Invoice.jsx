@@ -200,7 +200,7 @@ const Invoice1 = () => {
                       }
                       className="w-full p-1 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
                       aria-label={`Type of Material for row ${index + 1}`}
-                      placeholder="Material Type"
+                      // placeholder="Material Type"
                     />
                   </td>
                   <td className="text-center border border-gray-600 p-2 text-sm md:text-base">
